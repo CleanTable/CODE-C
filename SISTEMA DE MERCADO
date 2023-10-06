@@ -1,0 +1,38 @@
+
+#include <stdio.h>
+int main (){
+float codigo, quant, cal;
+    printf("Qual codigo do item?\n");
+    scanf("%f", &codigo);
+    printf("Quantidade que voce comprou do item\n");
+    scanf("%f", &quant);
+    if(codigo==1 || codigo==2 || codigo==3 || codigo==4 || codigo==5){
+        if (codigo==1){
+            cal = (quant*4.00);
+            printf("O valor total a ser pago pelo Cachorro quente é %.2f \n",cal);
+        }
+       else if(codigo==2){
+            cal = (quant*4.50);
+            printf("O valor total a ser  pago pelo x-salada é %.2f \n",cal);
+        }
+        else if(codigo==3){
+            cal = (quant*5.00);
+            printf("O valor total a  ser pago pelo Xbacon é %.2f \n",cal);
+            
+        }
+        else if(codigo==4){
+            cal = (quant*2.00);
+            printf("O valor total  a ser pago pela torrada é %.2f \n",cal);
+        
+        }
+        else if(codigo==5){
+            cal = (quant*1.50);
+            printf("O valor total a ser pago pelo refri é %.2f \n",cal);
+        }
+    }
+    else {
+        printf("Codigo invalido\n");
+    }
+    
+    
+}

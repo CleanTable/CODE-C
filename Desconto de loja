@@ -1,0 +1,27 @@
+# CODE-C
+Apresentando o que eu sou capaz de criar até o momento em C
+
+
+
+#include <stdio.h>
+int main (){
+    float valor;
+    
+    printf("Qual foi o valor da compra?");
+    scanf("%f",&valor);
+    if(valor<=100){
+        valor = valor-(valor*0.05);
+        printf("O valor final da compra e R$ %.2f",valor);
+        
+        
+        
+    }
+    else{(valor >100);
+    valor = valor-(valor*0.1);
+    printf("O valor final da compra e R$ %.2f",valor);
+        
+    
+        
+        
+        
+    }
